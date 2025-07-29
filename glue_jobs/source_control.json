@@ -2,7 +2,7 @@
   "Provider": "GITHUB",
   "Repository": "etl_jobs_aws",
   "Branch": "main",
-  "Owner": "gabyx7677",
+  "Owner": " ",
   "AuthStrategy": "PERSONAL_ACCESS_TOKEN",
-  "AuthToken": "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"
+  "AuthToken": " "
 }
