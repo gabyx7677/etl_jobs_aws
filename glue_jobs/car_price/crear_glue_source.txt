@@ -1,9 +1,0 @@
-Se puede usar el formato json del archivo source_control
-
-con el siguien comando en el bash
-
-aws glue create-job \
-  --name glue_etl_car_job \
-  --role arn:aws:iam::337607240580:role/rol_push_git_hub \
-  --command '{"Name": "glueetl", "ScriptLocation": "<RUTA_SCRIP>", "PythonVersion": "3"}' \
-  --source-control-details file://glue_jobs/source_control.json

@@ -1,8 +1,0 @@
-{
-  "Provider": "GITHUB",
-  "Repository": "etl_jobs_aws",
-  "Branch": "main",
-  "Owner": " ",
-  "AuthStrategy": "PERSONAL_ACCESS_TOKEN",
-  "AuthToken": " "
-}

@@ -1,6 +1,6 @@
 # **AWS Glue ETL Jobs**
 
-Este repositorio contiene una colección de scripts desarrollados para ejecutar procesos ETL utilizando AWS Glue. Los trabajos están enfocados en la limpieza, transformación y preparación de datos almacenados en Amazon S3, con posibilidad de ser integrados con herramientas como Athena, Redshift o visualización externa.
+Este repositorio contiene una colección de scripts y folders desarrollados para ejecutar procesos ETL utilizando AWS Glue. Los trabajos están enfocados en la limpieza, transformación y preparación de datos almacenados en Amazon S3, con posibilidad de ser integrados con herramientas como Athena, Redshift o visualización externa.
 
 ## **Objetivo**
 
@@ -26,9 +26,8 @@ Los scripts locales replican los pasos del Glue Job original, incluyendo lectura
 
 ## **Trabajos desarrollados**
 
-- `glue_etl_car_job`: proceso de limpieza y transformación de un dataset de vehículos, incluye escalado y codificación.
-- `glue_etl_sales_job`: preparación de datos de ventas para análisis de ingresos y segmentación.
-- `glue_etl_logs_job`: tratamiento de registros de logs para análisis de errores y trazabilidad.
+- `taxi_requests_pipeline`: proceso de limpieza y transformación de un dataset de solicitudes de taxis, incluye escalado y análisis
+- `car_proce_pipeline`: proceso de limpieza y transformación de un dataset de vehículos, incluye escalado y codificación.
 
 Cada trabajo cuenta con su respectiva versión en PySpark para depuración local.
 
@@ -36,4 +35,4 @@ Cada trabajo cuenta con su respectiva versión en PySpark para depuración local
 
 Gabriel García Montoya   
 Ingeniero Electricista y Científico de Datos  
-Repositorio técnico de proyectos ETL en AWS
+Repositorio técnico de proyectos ETL
